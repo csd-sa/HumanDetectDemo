@@ -1,0 +1,7 @@
+security:
+  oauth2:
+    client:
+      access-token-uri: https://nanjing-aiauth.jdcloud.com/oauth/token
+
+gateway:
+  url: https://nj-ccyaigw.jdcloud.com

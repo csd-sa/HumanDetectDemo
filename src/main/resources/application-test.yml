@@ -1,0 +1,7 @@
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:30065/oauth/token
+
+gateway:
+  url: http://localhost:30066

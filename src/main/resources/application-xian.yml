@@ -1,0 +1,7 @@
+security:
+  oauth2:
+    client:
+      access-token-uri: https://xian-aiauth.jdcloud.com/oauth/token
+
+gateway:
+  url: https://xa-ccyaigw.jdcloud.com

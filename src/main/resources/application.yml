@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: nanjing # 这里填写你的城市，如西安则填写xian，南京填写nanjing
+  application:
+    name: HumanDetectDemo
+security:
+  oauth2:
+    client:
+      grant-type: client_credentials
+      client-id:
+      #填写你的client id
+      clientSecret:
+      #填写你的client secret
+  ignored:
+    - /nanan/**
+neuhub:
+  picture: D:\Demo1.jpg # 此处为测试图片的绝对路径，具体想使用的图片请填写对应的图片存放路径
+  pictureCompare: D:\Face1.jpg # 此处为测试人脸对比接口的图片地址，具体想使用的图片请填写对应的图片存放路径
+  comment: 此处为文本内容 # 此处为测试评论相关接口的设置，请自行修改评论内容
+  commentCompare: 此处为文本内容 # 此处为测试短文本相似度接口的内容，请自行修改
+
+server:
+  port: 8888
+  #  enable-csrf: true
+  tomcat:
+    uriEncoding: UTF-8

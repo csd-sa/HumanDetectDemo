@@ -1,0 +1,7 @@
+security:
+  oauth2:
+    client:
+      access-token-uri: https://nanan-aiauth.jdcloud.com/oauth/token
+
+gateway:
+  url: https://na-ccyaigw.jdcloud.com
