@@ -16,7 +16,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 
 /**
- humanDetect
+ humanDetect，该controller用于测试AI人脸识别接口，若要调用其他AI接口，请根据NeuhubAIDemo项目自行修改调用url和请求体
+ NeuhubAIDemo项目地址：https://github.com/csd-sa/NeuhubAIDemo.git
  */
 @RestController
 @RequestMapping("/nanan")
