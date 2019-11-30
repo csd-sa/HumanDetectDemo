@@ -1,15 +1,15 @@
 spring:
   profiles:
-    active: nanjing # 这里填写你的城市，如西安则填写xian，南京填写nanjing
+    active: xxx # 这里填写你的城市，如西安则填写xian，南京填写nanjing
   application:
     name: HumanDetectDemo
 security:
   oauth2:
     client:
       grant-type: client_credentials
-      client-id:
+      client-id: xxx
       #填写你的client id
-      clientSecret:
+      clientSecret: xxx
       #填写你的client secret
   ignored:
     - /nanan/**

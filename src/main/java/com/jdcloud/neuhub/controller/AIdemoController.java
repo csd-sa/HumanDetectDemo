@@ -94,7 +94,7 @@ public class AIdemoController {
 
     @GetMapping("/human_detect")
     public Object humanDetect() {
-        checkEnvironment();
+//        checkEnvironment();
         byte[] data = dataBinary(picture);
         HttpEntity<Object> requestEntity = new HttpEntity<>(data);
         //以下参数仅为示例值id
